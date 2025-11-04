@@ -27,16 +27,24 @@
 
 //sqrt(s*(s-a)*(s-b)*(s-c))
 
-var a = Number(prompt("Enter side a"));
-var b = Number(prompt("Enter side b"));
-var c = Number(prompt("Enter side c"));
+// var a = Number(prompt("Enter side a"));
+// var b = Number(prompt("Enter side b"));
+// var c = Number(prompt("Enter side c"));
 
-if(a + b > c || a + c > b || b + c > a){
-    var s = (a + b + c)/2;
-    console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
-} else {
-    console.log("This is not a Triangle");
-}
+// if(a + b > c || a + c > b || b + c > a){
+//     var s = (a + b + c)/2;
+//     console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+// } else {
+//     console.log("This is not a Triangle");
+// }
+
+// Circumference of Circle
+
+// 2*pi*r
+
+var r = prompt("Enter Radius");
+
+console.log(2*Math.PI*r);
 
 
 
