@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+ table{
+    padding: 10px;
+ }
+ td{
+    padding: 10px;
+ }
+ #discount{
+    text-align: right;
+    color: rgb(0, 151, 0);
+ }
+</style>
 <body>
-    
+    <table border="1">
+        <tr>
+            <td>Total Price</td>
+            <td id="Price"></td>
+        </tr>
+        <tr>
+            <td id="discount" colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Final Price</td>
+            <td id="final"></td>
+        </tr>
+    </table>
 </body>
 <script src="day3.js"></script>
 </html>
