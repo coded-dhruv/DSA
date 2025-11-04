@@ -42,9 +42,11 @@
 
 // 2*pi*r
 
-var r = prompt("Enter Radius");
+// var r = prompt("Enter Radius");
 
-console.log(2*Math.PI*r);
+// console.log(2*Math.PI*r);
+
+
 
 
 
