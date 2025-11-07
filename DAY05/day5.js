@@ -46,3 +46,4 @@
 //     default: console.log("Mai to chalunga");
 // }
 
+process.stdout.write("*");
